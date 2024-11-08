@@ -1,0 +1,235 @@
+.background-header{
+    background-image: src="Assets/Background header.png";
+}
+#button-header{
+    border-radius: 10px;
+}
+
+ul{
+    align-content: center;
+}
+
+.custom-hover {
+    color: #5A3EBD;
+    /* Violet text color for the default state */
+    border-color: #5A3EBD;
+    /* Violet border color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Smooth transition */
+}
+
+.custom-hover:hover {
+    background-color: #5A3EBD;
+    /* Violet background on hover */
+    color: #fff;
+    /* White text on hover */
+}
+
+p{
+    font-size: 15px;
+}
+
+.trusted-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    justify-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.trusted-section img {
+    max-height: 50px;
+    margin: 0 15px;
+}
+
+.feature-box {
+    background-color: #f5f5f5;
+    padding: 50px;
+    width: auto;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    font-size: 30px;
+    color: #9d00ff;
+}
+
+.feature-title {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #4b0082;
+}
+
+.title{
+    display: grid;
+    justify-items: center;
+}
+
+.header-section {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(to bottom, #cce7ff, #e6f3ff);
+}
+
+.header-section h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4b0082;
+}
+
+.header-section p {
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.tech{
+    display: grid;
+    justify-items: center;
+}
+
+.service-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.service-box img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.service-content {
+    flex: 1;
+}
+
+.service-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4b0082;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    color: #666;
+}
+
+.consultation-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.consultation-button a {
+    background-color: #4b0082;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.consultation-button a:hover {
+    background-color: #350063;
+}
+
+.fullstack{
+    margin: 0 auto;
+    width: 70%;
+}
+
+ .process-section {
+     background-color: #4b0082;
+     color: #fff;
+     text-align: center;
+     padding: 40px 20px;
+     position: relative;
+     overflow: hidden;
+ }
+
+ .process-section h2 {
+     font-weight: bold;
+     margin-bottom: 10px;
+ }
+
+ .process-section p {
+     max-width: 600px;
+     margin: 0 auto 30px;
+     color: #d1d1e0;
+ }
+
+ .process-step {
+     background-color: rgba(255, 255, 255, 0.1);
+     padding: 30px;
+     height: 300px ;
+     max-height: 300px ;
+     border-radius: 12px;
+     text-align: center;
+     margin-top: 20px;
+     color: #ffffff;
+     position: relative;
+ }
+
+ .process-step .step-number {
+     background-color: #ffcb05;
+     color: #4b0082;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: bold;
+     position: absolute;
+     top: -20px;
+     left: 50%;
+     transform: translateX(-50%);
+ }
+
+ .process-step h5 {
+     font-size: 18px;
+     font-weight: bold;
+     margin-top: 20px;
+     color: #ffcb05;
+ }
+
+ .process-step p {
+     color: #d1d1e0;
+ }
+
+ .start-button {
+     margin-top: 30px;
+     text-align: center;
+ }
+
+ .start-button a {
+     background-color: #ffcb05;
+     color: #4b0082;
+     padding: 12px 30px;
+     border-radius: 50px;
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+ .start-button a:hover {
+     background-color: #e0b500;
+ }
+
+ .faq-card {
+     background-color: #dcdcf5;
+     /* Light purple */
+     border: none;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     /* Shadow effect */
+     border-radius: 8px;
+ }
